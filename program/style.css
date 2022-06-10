@@ -1,0 +1,11 @@
+ht{
+  font-family: "Times New Roman", Times, Sans-Serif;
+  font-weight: 100;
+  margin: 0;
+  text-align: left;
+  font-size: 30px;
+}
+
+#programCanvas{
+  border: 1px solid #35a3f2;
+}
