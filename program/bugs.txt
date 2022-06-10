@@ -1,5 +1,0 @@
-1. Framerate affects object speed, specifically, updatePos() and updateVel().
-  setInterval's time parameter seems to have a limit. Setting it to 0.01 and 0.0000001 gives the same result. This may be some sort of hardward restriction.
-  Given the same time interval, if the delta position or delta velocity are different due to calculation, which depends on frame rate, which is actually not relavant to time interval, speed will vary.
-
-2. Check Force class input (object or not)
