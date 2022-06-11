@@ -209,5 +209,7 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
+// Testing box
+// var b1=new Box(1, 30, 30, "blue", 100, 100, 100, 0);
 
 setInterval(updateFrame, 1000/programCanvas.frameRate);
